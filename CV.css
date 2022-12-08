@@ -1,0 +1,205 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center; 
+  
+}
+.nav.links{
+  flex:1;
+  text-align: center;
+}
+.nav-links ul li{
+list-style: none;
+display: inline-block;
+padding: 20px 80px;
+position: center;
+text-align: center;
+}
+
+.nav-links ul li a{
+  color:black;
+  text-decoration: none;
+  font-size:x-large;
+  
+}
+
+
+body{
+
+background: whitesmoke;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+.container
+{
+position: relative;
+width: 100%;
+max-width: 1000px;
+min-height: 1000px;
+margin: 50px;
+background: #fff;
+display: grid;
+grid-template-columns: 1fr 2fr;
+box-shadow: 0 35px 55px rgba(0, 0, 0, 1);
+}
+
+.container .Left-side
+{
+position: relative;
+background: #003147;
+padding: 40px;
+
+}
+.Profile-text 
+{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 20px;
+border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+.Profile-text .Img 
+{
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+
+}
+
+.Profile-text .Img img
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+}
+
+.Profile-text h2
+{
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+.Profile-text h2 span
+{
+font-size: 0.8em;
+font-weight: 300;
+
+
+}
+
+.contactinfo{
+
+  padding-top: 40px;
+  
+}
+.title{
+
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.contactinfo ul{
+
+position: relative;
+
+}
+
+.contactinfo ul li{
+
+  position:relative;
+  margin: 10px 0;
+  cursor: pointer;
+  color: #fff;
+}
+
+.lang
+{
+  color: #fff;
+}
+
+
+.container .Right-side
+{
+position: relative;
+background: #fff;
+padding: 40px;
+
+}
+
+.about {
+
+  margin-bottom: 50px;
+padding-right: 20px;
+}
+.about:last-child{
+
+margin-bottom: 0;
+}
+.title2 {
+  color:#2a7da2;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding-left: 10%;
+}
+
+p{
+  color: #333;
+  padding-left: 10%;
+}
+
+.about .box
+{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+  padding-left: 10%;
+
+
+}
+.about .box .year-company{
+
+  min-width: 150px;
+  margin-right: 5px;
+
+}
+.about .box .year-company h5{
+text-transform: uppercase;
+color: #848484;
+font-weight: 600;
+}
+.about .box .text h4{
+
+  color: #2a7da2;
+  font-size: 16px;
+  
+}
